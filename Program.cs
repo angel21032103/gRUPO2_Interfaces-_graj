@@ -7,12 +7,25 @@ namespace gRUPO2_Interfaces__graj
     {
         static void Main(string[] args)
         {
-            Refigerador miRefigerador = new Refigerador();
-            IEcender ecender = miRefigerador;
-            ecender.Encender();
+            Plancha miPlancha = new Plancha();
+            miPlancha.Encender();
+            miPlancha.Apagar();
 
-            Estufa miEstufa= new Estufa();
-            miEstufa.Encender();
+            Televisor miTelevisor = new Televisor();
+            miTelevisor.Encender();
+            miTelevisor.Apagar();
+
+            Smartphone miSmartphone = new Smartphone();
+            miSmartphone.Encender();
+            miSmartphone.Apagar();
+
+            Automóvil miAutomóvil = new Automóvil();
+            miAutomóvil.Encender();
+            miAutomóvil.Apagar();
+
+            Laptop miLaptop = new Laptop();
+            miLaptop.Encender();
+            miLaptop.Apagar();
 
             Console.ReadLine();
 

@@ -8,10 +8,11 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>gRUPO2_Interfaces__graj</RootNamespace>
     <AssemblyName>gRUPO2_Interfaces _graj</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -36,12 +37,18 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Automovil.cs" />
     <Compile Include="Estufa.cs" />
+    <Compile Include="IApagar.cs" />
     <Compile Include="IEcender.cs" />
+    <Compile Include="Laptop.cs" />
     <Compile Include="LineaBlanca.cs" />
+    <Compile Include="Plancha.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Refigerador.cs" />
+    <Compile Include="Smartphone.cs" />
+    <Compile Include="Televisor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
